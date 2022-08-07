@@ -1,4 +1,4 @@
-help - Ayuda sobre el bot vvv
+help - Ayuda sobre el bot uwuuw
 useradm - Ver si eres admin o usuario del bot
 myuser - Configuración actual
 token - Ver token de la cuenta
