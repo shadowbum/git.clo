@@ -861,7 +861,7 @@ def onmessage(update,bot:ObigramClient):
             getUser['moodle_user'] = "---"
             getUser['moodle_password'] = "---"
             getUser['moodle_repo_id'] = 4
-            getUser['zips'] = 200
+            getUser['zips'] = 399
             jdb.save_data_user(username,getUser)
             jdb.save()
             statInfo = infos.createStat(username,getUser,jdb.is_admin(username))
