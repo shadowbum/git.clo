@@ -51,7 +51,8 @@ async def send_calendar(moodle: str, user: str, passw: str, urls: list, proxy: s
                     "index": 0,
                     "methodname": "core_calendar_submit_create_update_form",
                     "args": {
-                        "formdata": "id=0&userid={}&modulename=&instance=0&visible=1&eventtype=user&sesskey={}&_qf__core_calendar_local_event_forms_create=1&mform_showmore_id_general=1&name=Evento&timestart[day]=4&timestart[month]=4&timestart[year]=2022&timestart[hour]=18&timestart[minute]=55&description[text]={}&description[format]=1&description[itemid]={}&location=&duration=0"
+                        "formdata": "id=0&userid={}&modulename=&instance=0&vi""formdata": "id=0&userid={}&modulename=&instance=0&visible=1&eventtype=user&sesskey={}&_qf__core_calendar_local_event_forms_create=1&mform_showmore_id_general=1&name=Subidas&timestart[day]="+str(today.day)+"&timestart[month]="+str(today.month)+"&timestart[year]="+str(today.year)+"&timestart[hour]=18&timestart[minute]=55&description[text]={}&description[format]=1&description[itemid]=940353303&location=&duration=0"
+                        },
                     },
                 }
             ]
